@@ -2,6 +2,6 @@
 function lowerCaseDrivers (array)
 {
   return array.map(function(items){
-    return items.name.toLowerCase();
+    return items.toLowerCase();
   });
 }
