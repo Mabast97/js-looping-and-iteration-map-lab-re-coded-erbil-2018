@@ -10,7 +10,7 @@ function nameToAttributes (array)
 {
   return array.map(function(items){
     const first = items.split(' ')[0];
-    let second = items.split(' ')[1];
+    const second = items.split(' ')[1];
     
     return {firstName: first, secondName: second };
   });
