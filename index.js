@@ -18,6 +18,8 @@ function nameToAttributes (array)
 
 function attributesToPhrase(array)
 {
-  
+  return array.map(function(item){
+    return `${}`;
+  });
 }
 
