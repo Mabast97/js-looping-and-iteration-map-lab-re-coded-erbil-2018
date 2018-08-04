@@ -12,14 +12,6 @@ function nameToAttributes (array)
     const first = items.split(' ')[0];
     const second = items.split(' ')[1];
     
-    return {firstName: first, secondName: second };
-  });
-}
-function nameToAttributes (list) {
-  return list.map(function (driver) {
-    const driverFirst = driver.split(' ')[0];
-    const driverLast = driver.split(' ')[1];
-
-    return { firstName: driverFirst, lastName: driverLast };
+    return {firstName: first, lastName: second };
   });
 }
