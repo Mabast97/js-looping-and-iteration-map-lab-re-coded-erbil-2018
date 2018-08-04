@@ -15,3 +15,6 @@ function nameToAttributes (array)
     return {firstName: first, lastName: second };
   });
 }
+
+
+
