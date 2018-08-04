@@ -12,6 +12,6 @@ function nameToAttributes (array)
     let first = items.split(' ');
     let second = items.split(' ');
     
-    return 
+    return {first: 
   });
 }
